@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');  */
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
+
  * {
      padding: 0%;
      margin: 0%;
@@ -56,53 +57,48 @@
  }
 
  #bb {
-
-    text-align: center;
-    /* display: inline-block; */
-    
-
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    
-    
-    /* margin-bottom: 20px; */
-    background-color: #c64b2f;
-    color: #fff;
-    font-size: 12px;
-    
-    border: 1px solid transparent;
-    border-radius: 8px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    /* margin-top: 10px; */
-    cursor: pointer;
-  
-
+     /* margin-top: 30px; */
+     background-color: #c64b2f;
+     color: #fff;
+     cursor: pointer;
+     letter-spacing: 0.5px;
+     border-radius: 8px;
+     border: 1px solid transparent;
+     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+     font-weight: 600;
+     text-transform: uppercase;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     width: 250px;
+     /* text-align: center;
+     display: inline-block; */
  }
 
-
+ #bc {
+     text-decoration: none;
+     color: white;
+ }
 
  #hero_head {
 
-     font-size: 100px;
+     font-size: 80px;
 
  }
 
- #hero_p {
+ .hero_p {
      font-size: 20px;
      padding-top: 20px;
+
+     width: 550px;
  }
 
  .hero {
      margin-left: 40px;
 
-     margin-top: 210px;
+     margin-top: 200px;
  }
 
- .info {
-     margin-left: 60px;
-     font-size: 20px;
- }
+
 
 
 
@@ -111,6 +107,13 @@
      flex-direction: column;
      align-items: center;
      text-align: center;
+     margin-top: 150px;
+     /* border: 1px solid #c64b2f ;
+     border-radius: 8px;
+     width: 600px; */
+     /* margin-left:  500px;  */
+     margin-bottom: 300px;
+
 
  }
 
@@ -154,29 +157,36 @@
 
  #but {
      text-decoration: none;
-color: white;
+     color: white;
 
  }
 
  #b {
-
-     text-align: center;
-     display: inline-block;
-     
-     padding: 10px 20px;
-     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-     
-     margin-top: 20px;
-     margin-bottom: 20px;
+     margin-top: 30px;
      background-color: #c64b2f;
      color: #fff;
-     font-size: 12px;
-     padding: 10px 45px;
-     border: 1px solid transparent;
-     border-radius: 8px;
-     font-weight: 600;
-     letter-spacing: 0.5px;
-     text-transform: uppercase;
-     margin-top: 10px;
      cursor: pointer;
+     letter-spacing: 0.5px;
+     border-radius: 8px;
+     border: 1px solid transparent;
+     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+     text-transform: uppercase;
+     font-weight: 600;
+     text-transform: uppercase;
+     padding: 10px 20px;
+     margin-bottom: 20px;
+ }
+
+ #f{
+    font-size: 40px;
+    margin-top: 150px;
+    text-align: center;
+ }
+ 
+ summary{
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    width: 600px;
+    margin-left:  460px; 
  }
