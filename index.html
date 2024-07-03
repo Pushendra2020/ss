@@ -7,69 +7,62 @@
     <title>Diet Planner</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 
 <body>
     <!-- header section starts -->
-    <header class="header">
+    <section >
+        <header class="header">
 
-        <a href="#" class="logo">DIET PLANNER</a>
-        <!-- navbar -->
-        <nav class="navbar">
+            <a href="#" class="logo">DIET PLANNER</a>
+            <!-- navbar -->
+            <nav class="navbar">
 
-            <img src="" alt="">
-
-
-            <a href="#calculator">Calculator</a>
-            <a href="#help">Help</a>
+                <img src="" alt="">
 
 
-            <button class="button" type="button" id="bb"><a href="login.html" id="bc">Get Started</button></a></button>
-
-        </nav>
-
-        <!-- navbar ends  -->
-    </header>
-    <!-- header ends -->
-
-    <div class="hero">
-
-        <h1 id="hero_head"> Your Personal <br>
-            Diet Planner</h1>
-        <p class="hero_p">Calorie and Macro Meal Planner. Serve up recipes for your personalized meal plan
-            automatically. Calculate
-            your nutritional needs and generate custom diet plans for weight loss, bodybuilding and much more!</p>
-
-        <button class="button" type="button" id="b"> <a href="login.html" id="but">GET STARTED FOR FREE...</a></button>
+                <a href="#calculator">Calculator</a>
+                <a href="#help">Help</a>
 
 
+                <button class="button" type="button" id="bb"><a href="login.html" id="bc">Get
+                        Started</button></a></button>
 
+            </nav>
 
-    </div>
+            <!-- navbar ends  -->
+        </header>
+        <!-- header ends -->
 
-    <div class="faq">
-        <h3 id="f">Frequently Asked Questions</h3>
-        <details>
-            <summary>What is BMI?</summary>
-            <p>Body Mass Index (BMI) is a measure used to assess whether an individual’s weight is within a healthy
-                range based on their height. It’s calculated by dividing a person’s weight in kilograms by the square of
-                their height in meters.
-        </details>
-        <details>
-            <summary> How does the meal planner work? </summary>
-            <p> Each diet plan selected can be customised according to things such as your personal statistics, current
-                physical condition, activity levels and whether you want to lose fat, stay in shape, or gain muscle. It
-                can be personalised to whether you are a vegan or not, if you have any allergies such as gluten, also
-                including the option for halal and kosher recipes only. You can even tell the planner that you prefer to
-                only drink smoothies in the morning. Once your diet plan is set up, the meal planner automatically finds
-                recipes to match the diet plan criteria. Have a look at the suggested recipes that are produced for you
-                automatically and adjust until you get what is right for you.
-        </details>
+        <div class="hero">
+
+            <h1 id="hero_head"> <span style="color:#98e54c;">Your</span> Personal <br>
+                <span style="color:#98e54c;">Diet</span> Planner</h1>
+            <p class="hero_p">Calorie and Macro Meal Planner. Serve up recipes for your personalized meal plan
+                automatically. Calculate
+                your nutritional needs and generate custom diet plans for weight loss, bodybuilding and much more!</p>
+
+            <button class="button" type="button" id="b"> <a href="login.html" id="but">GET STARTED FOR
+                    FREE...</a></button>
 
 
 
-    </div>
+
+        </div>
+        <div class="search">
+            
+            <input type="text" placeholder="Search" id="s_bar" >
+            <button class="s_bnt"><i class="fa-solid fa-magnifying-glass" style="padding-left: 30px; font-size: 20px;"></i></button>
+            
+        </div>
+        
+    </section>
+
+    
 
     <div class="bmi">
         <span>Weight: <input type="number" placeholder="(Kg)" id="we"></span>
@@ -83,26 +76,27 @@
         <button id="sum">SUBMIT</button>
     </div>
 
+    <div class="faq">
+        <h3>Frequently Asked Questions</h3>
+        <details class="st">
+            <summary>How does the meal planner work?</summary>
+            <p>Each diet plan selected can be customised according to things such as your personal statistics, current
+                physical condition, activity levels and whether you want to lose fat, stay in shape, or gain muscle. It
+                can be personalised to whether you are a vegan or not, if you have any allergies such as gluten, also
+                including the option for halal and kosher recipes only. You can even tell the planner that you prefer to
+                only drink smoothies in the morning. Once your diet plan is set up, the meal planner automatically finds
+                recipes to match the diet plan criteria. Have a look at the suggested recipes that are produced for you
+                automatically and adjust until you get what is right for you.</p>
+        </details>
+        <details class="st">
+            <summary> Will I need to update my diet meal plan often? </summary>
+            <p>This depends mainly on how fast your weight loss is. If you notice that your weight loss has started to
+                stall you made need to set up a new plan with a lower calorie requirement (or increase your daily
+                activity instead and stick with the same plan).</p>
 
-
+        </details>
+    </div>
     <script src="script.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 
 </html>
